@@ -19,7 +19,7 @@ const OpenDialogue = (props) => {
   const [slides, setSlides] = useState([]);
   const [progress, setProgress] = useState(false);
   const [notFound, setNotFound] = useState(false);
-  let [color] = useState("#fb9e00");
+  let [color] = useState("#0874ec");
 
   const getAds = async () => {
     setProgress(false);

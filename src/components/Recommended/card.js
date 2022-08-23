@@ -26,7 +26,7 @@ const Cards = (props) => {
         />
         <CardContent className="cardContent">
           <Typography>Destination {slide.destination}</Typography>
-          <Typography style={{ color: "#fb9e00" }}>
+          <Typography style={{ color: "#0874ec" }}>
             Click to view Detail
           </Typography>
         </CardContent>

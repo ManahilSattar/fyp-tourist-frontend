@@ -40,7 +40,7 @@ export default function FormDialog(props) {
   const [adOwnerId] = React.useState(dialogData.userId);
   const [bookingDescription, setBookingDescription] = React.useState("");
   const [loading, setLoading] = React.useState(false);
-  let [color] = React.useState("#fb9e00");
+  let [color] = React.useState("#0874ec");
 
   const handleClose = () => {
     setOpen(false);
@@ -152,10 +152,10 @@ export default function FormDialog(props) {
         <DialogActions>
           {!loading ? (
             <>
-              <Button style={{ color: "#fb9e00" }} onClick={handleClose}>
+              <Button style={{ color: "#0874ec" }} onClick={handleClose}>
                 Cancel
               </Button>
-              <Button style={{ color: "#fb9e00" }} onClick={handleSave}>
+              <Button style={{ color: "#0874ec" }} onClick={handleSave}>
                 Book Now
               </Button>
             </>

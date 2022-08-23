@@ -17,7 +17,7 @@
     height: 50px;
     display: flex;
     align-items: center;
-    color: black;
+    color: #555555;
   }
   
   .dataItem p {
@@ -25,7 +25,7 @@
   }
   .dataItem:hover{
       cursor: pointer;
-      background-color: #fb9e00;
+      background-color:  #0874ec;
   }
   .search {
     background-color: white;

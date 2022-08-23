@@ -3,7 +3,6 @@ import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogTitle from "@mui/material/DialogTitle";
-import "./style.css";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
@@ -32,7 +31,7 @@ export default function FormDialog(props) {
   return (
     <div className="dialog">
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle style={{ color: "#fb9e00" }}>Detail</DialogTitle>
+        <DialogTitle style={{ color: " #0874ec" }}>Detail</DialogTitle>
         <Card sx={{ width: 550 }}>
           <CardMedia
             component="img"
@@ -56,10 +55,10 @@ export default function FormDialog(props) {
           </CardContent>
         </Card>
         <DialogActions>
-          <Button style={{ color: "#fb9e00" }} onClick={handleClose}>
+          <Button style={{ color: " #0874ec" }} onClick={handleClose}>
             Back
           </Button>
-          <Button style={{ color: "#fb9e00" }} onClick={handleBookNow}>
+          <Button style={{ color: " #0874ec" }} onClick={handleBookNow}>
             Book Now
           </Button>
         </DialogActions>

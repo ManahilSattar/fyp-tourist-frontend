@@ -16,9 +16,9 @@ const Chat = () => {
           }}
         >
           {icon ? (
-            <CloseIcon style={{ color: "fb9e00" }} fontSize="large" />
+            <CloseIcon style={{ color: "#0874ec" }} fontSize="large" />
           ) : (
-            <ChatIcon style={{ color: "fb9e00" }} fontSize="large" />
+            <ChatIcon style={{ color: "#0874ec" }} fontSize="large" />
           )}
         </IconButton>
       </div>

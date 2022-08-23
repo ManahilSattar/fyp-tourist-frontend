@@ -16,7 +16,7 @@ import { styled } from "@mui/material/styles";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import img2 from "../images/img4.jpg";
-import img1 from "../images/shortLogo.PNG";
+import img1 from "../images/shortlogo1.jpeg";
 import Search from "../searchbar/search";
 import { GET } from "../../services/httpClient";
 import Menu from "@mui/material/Menu";
@@ -194,10 +194,10 @@ const Navbar = ({ toggle }) => {
               >
                 <Badge
                   badgeContent={count}
-                  style={{ color: "black", backgroundColor: "fb9e00" }}
+                  style={{ color: "black", color: "#0874ec" }}
                   max={100}
                 >
-                  <NotificationsNoneIcon style={{ color: "fb9e00" }} />
+                  <NotificationsNoneIcon style={{ color: "#0874ec" }} />
                 </Badge>
               </IconButton>
               <IconButton

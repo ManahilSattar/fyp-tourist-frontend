@@ -31,7 +31,7 @@ export default function FormDialog(props) {
   return (
     <div className="dialog">
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle style={{ color: "#fb9e00" }}>Detail</DialogTitle>
+        <DialogTitle style={{ color: "#0874ec" }}>Detail</DialogTitle>
         <Card sx={{ width: 550 }}>
           <CardMedia
             component="img"
@@ -61,7 +61,7 @@ export default function FormDialog(props) {
           </div>
         )}
         <DialogActions>
-          <Button style={{ color: "#fb9e00" }} onClick={handleClose}>
+          <Button style={{ color: "#0874ec" }} onClick={handleClose}>
             Back
           </Button>
         </DialogActions>

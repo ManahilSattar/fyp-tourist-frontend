@@ -91,7 +91,7 @@ export default function RadioGroupRating(props) {
           setValue(newValue);
         }}
       />
-      <Button style={{ color: "#fb9e00" }} onClick={submitReview}>
+      <Button style={{ color: "#0874ec" }} onClick={submitReview}>
         Submit
       </Button>
       {openSnackbar && (

@@ -1,12 +1,12 @@
-.Button:hover {
-  background-color: #ffa000;
+ .Button:hover {
+  background-color: #0874ec;
 }
 .mainContainer {
   height: 550px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: #ffba46;
+  background: #33B9FF;
 }
 .containerHeading {
   display: flex;
@@ -36,6 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 300px;
 }
 
 .cardContent {
@@ -49,4 +50,4 @@
   transform: scale(1.02);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-}
+} 

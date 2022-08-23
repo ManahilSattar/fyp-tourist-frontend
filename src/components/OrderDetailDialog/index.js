@@ -27,7 +27,7 @@ import ViewDialog from "./ViewAdDialog/index";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#fb9e00",
+      main: "#0874ec",
     },
   },
 });
@@ -187,7 +187,7 @@ export default function OrderDetailDialog(props) {
               alignItems: "center",
             }}
           >
-            <RingLoader color={"#fb9e00"} css={override} loading={loading} />
+            <RingLoader color={"#0874ec"} css={override} loading={loading} />
           </Box>
         )}
       </Dialog>

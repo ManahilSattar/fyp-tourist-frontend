@@ -60,7 +60,7 @@ export const HeroP = styled.p`
     font-weight: bold;
     text-align: center;
     justify-content: center;
-    max-width: 600px;
+    max-width: 800px;
 
     @media screen and (max-width: 768px){
         font-size: 24px;

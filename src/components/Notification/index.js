@@ -23,7 +23,7 @@ export default function Notifications(props) {
   const [progress, setProgress] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [row, setRow] = React.useState(rows);
-  let [color] = React.useState("#fb9e00");
+  let [color] = React.useState("#333BFF");
   const open = Boolean(anchorEl);
 
   const handleClick = (event) => {

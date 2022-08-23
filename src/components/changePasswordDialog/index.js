@@ -5,7 +5,6 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
-import "./style.css";
 import Snackbar from "../snakebar/index";
 import { UPDATE } from "../../services/httpClient";
 
@@ -48,7 +47,7 @@ export default function FormDialog(props) {
   return (
     <div className="dialog">
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle style={{ color: "#fb9e00" }}>Edit</DialogTitle>
+        <DialogTitle style={{ color: "#339BFF", fontWeight: 'bold' }}>Edit</DialogTitle>
         <DialogContent>
           <TextField
             autoFocus
@@ -76,10 +75,10 @@ export default function FormDialog(props) {
           />
         </DialogContent>
         <DialogActions>
-          <Button style={{ color: "#fb9e00" }} onClick={handleClose}>
+          <Button style={{ color: "#339BFF", fontWeight: 'bold' }} onClick={handleClose}>
             Cancel
           </Button>
-          <Button style={{ color: "#fb9e00" }} onClick={handleSave}>
+          <Button style={{ color: "#339BFF", fontWeight: 'bold' }} onClick={handleSave}>
             Save
           </Button>
         </DialogActions>

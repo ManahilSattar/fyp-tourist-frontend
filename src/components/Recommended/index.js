@@ -22,7 +22,7 @@ const Recommended = ({id}) => {
           <h1>Recommended For You</h1>
         </div>
         <div className="containerBody">
-          <div className="cardContainer">
+          <div className="cardContainer1">
             {slides.map((e) => (
               <Cards key={e.id} slide={e} />
             ))}

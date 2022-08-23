@@ -18,14 +18,14 @@ import {
   Button,
 } from "./ContactElements";
 
-import img1 from "../images/off the beaten track.png";
+import img1 from "../images/logo.jpeg";
 import { TextField, Box } from "@mui/material";
 
 export const homeObjOne = {
   id: "contact",
   lightBg: false,
   lightText: true,
-  topLine: "OFF THE BEATEN TRACK",
+  topLine: "DREAM DESTINATION GATEWAYS",
   headline: "Contact Us",
   imgStart: false,
 };

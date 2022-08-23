@@ -55,7 +55,7 @@ export const NavItem = styled.li`
   height: 40px;
 `;
 export const NavLinks = styled(LinkS)`
-  color: #000000;
+  color: #555555;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -64,29 +64,29 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
   &:hover {
-    background-color: #fb9e00;
+    background-color:  #0874ec;
     border-radius: 50px;
     transition: 0.2s ease-in-out;
   }
   &.active {
-    border-bottom: 3px solid #fb9e00;
+    border-bottom: 3px solid  #0874ec;
   }
 `;
 
 export const NavLink = styled(LinkS)`
-   color: #000000;
+   color: #555555;
    flex: 1,
    flexDirection: 'column',
    alignItems: 'flex-end',
    height: 100%;
    cursor: pointer;
    &:hover {
-      background-color: #fb9e00;
+      background-color:  #0874ec;
       border-radius: 50px;
       transition: 0.2s ease-in-out;
   }
   &.active{
-   border-bottom: 3px solid blue;
+   border-bottom: 3px solid  #0874ec;
 }
 `;
 
@@ -100,10 +100,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
    border-radius: 40px;
-   background:#fcdc00;
+   background:#339BFF;
    white-space: nowrap;
    padding: 10px 22px;
-   color: #010606;
+   color: #555555;
    font-size: 14px;
    font-weight: bold;
    outline: none;
@@ -114,7 +114,7 @@ export const NavBtnLink = styled(LinkR)`
    text-decoration: none;
    &:hover{
       transition: all 0.2s ease-in-out;
-      background: #fb9e00;
-      color: #010606;
+      background:  #0874ec;
+      color: #555555;
    }
 `;

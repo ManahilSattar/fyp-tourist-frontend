@@ -24,7 +24,7 @@ export const Container = styled.div`
       width: 50%;
       -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.74);
       box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.74);
-      border: 4px solid #fb9e00;
+      border: 4px solid #0874ec;
 
       @media (min-width: 768px) {
         width: 80%;

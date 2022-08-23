@@ -1,12 +1,12 @@
 .Button:hover {
-  background-color: #ffa000;
+  background-color: #333BFF;
 }
 .mainContainer {
-  height: 500px;
+  height: 550px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: #ffba46;
+  background: #339BFF;
 }
 .containerHeading {
   display: flex;

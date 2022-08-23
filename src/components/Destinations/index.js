@@ -21,7 +21,7 @@ const Destination = ({id}) => {
     <>
       <div className="mainContainer" id = {id}>
         <div className="containerHeading">
-          <h1>Destination</h1>
+          <h1 style={{marginTop: "40px"}}>Destination</h1>
         </div>
         <div className="containerBody">
           <div className="cardContainer">

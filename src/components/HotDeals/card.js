@@ -22,7 +22,7 @@ const Cards = (props) => {
         />
         <CardContent className="cardContent">
           <Button
-            color="warning"
+           style={{backgroundcolor: "#0874ec"}} 
             variant="contained"
             onClick={() => {
               setOpenDialog(true);
